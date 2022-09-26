@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'vscodeangularwebapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DC7EC99E6BFD40F18DA7BC1AD1CC3CFA }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE2 }}
           package: .
